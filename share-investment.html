@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GKroon (Pty) Ltd – Share Investment Opportunity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Unique Professional Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="share-investment.css">
+</head>
+<body>
+  <header>
+    <h1 id="main-title">GKroon (Pty) Ltd – Share Investment Opportunity</h1>
+    <h2>Invest in our future. Own a part of GKroon.</h2>
+  </header>
+  <div class="container">
+    <div class="offer" id="offer-section">
+      <span class="accent-bar"></span>
+      <div class="offer-title" id="offer-title">Share Investment Offer <span id="toggle-offer">&#9660;</span></div>
+      <div class="toggle-content" id="offer-content">
+        <div class="offer-details">
+          <span class="offer-highlight" id="shares-available">350 shares</span> available at 
+          <span class="offer-highlight" id="price-per-share">R150 per share</span>.<br>
+          <span class="offer-highlight" id="total-raise">Total Raise: R5,000,000</span>
+        </div>
+        <div>
+          <strong style="color: var(--lime-green);">Why Invest?</strong>
+          <ul style="margin:0.6em 0 0 0.7em;">
+            <li>Become a shareholder in a fast-growing South African business.</li>
+            <li>Potential for dividend income and capital growth.</li>
+            <li>Full legal rights as a shareholder under South African law.</li>
+            <li>Transparent process & secure payment.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="calc-section">
+      <div class="calc-title">Calculate Your Investment</div>
+      <form class="calc-form" id="calc-form" autocomplete="off">
+        <label for="buy-shares" style="color:var(--lime-green);">Number of Shares:</label>
+        <input type="number" id="buy-shares" min="1" max="350" value="10" required>
+        <button class="calc-btn" type="submit">Calculate</button>
+      </form>
+      <div class="calc-result" id="calc-result">Total Investment: R1500</div>
+    </div>
+    <div class="investment-info toggle-open" id="investment-info-section">
+      <h3 id="investment-title">About Share Investment in South Africa <span id="toggle-investment">&#9660;</span></h3>
+      <div class="toggle-content" id="investment-content">
+        <ul>
+          <li>Shares represent ownership in a business, giving you voting rights & potential profit sharing.</li>
+          <li>Shareholders are protected by the Companies Act (No. 71 of 2008).</li>
+          <li>Owning shares means you can attend annual general meetings and vote on company matters.</li>
+          <li>South African law ensures fair treatment and transparency for shareholders.</li>
+          <li>Dividends may be paid out from company profits, at directors’ discretion.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="ownership-info toggle-open" id="ownership-info-section">
+      <h3 id="ownership-title">Share Ownership Details <span id="toggle-ownership">&#9660;</span></h3>
+      <div class="toggle-content" id="ownership-content">
+        <ul>
+          <li>Your name will be registered in the company’s share register.</li>
+          <li>Share certificates and proof of ownership provided.</li>
+          <li>Shares can be transferred, sold or inherited subject to company rules.</li>
+          <li>Contact us for information on shareholder agreements or legal queries.</li>
+        </ul>
+      </div>
+    </div>
+    <button class="cta-btn" id="invest-btn" type="button">Invest Now</button>
+  </div>
+  <script src="share-investment.js"></script>
+</body>
+</html>
